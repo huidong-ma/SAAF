@@ -66,7 +66,7 @@ def parse_args(argv):
     return args
 
 def evaluate(net, device, data_dirs, cuda=False, real=False, p=128, save_path=None):
-    print(' Evaluate '.center(35, '-'))
+    print(' Evaluate '.center(40, '='))
     print(
         "Dataset".center(10) +
         "Count".center(10) +
@@ -146,6 +146,8 @@ def evaluate(net, device, data_dirs, cuda=False, real=False, p=128, save_path=No
             f"{PSNR:.5f}".center(10) +
             f"{Bit_rate:.5f}".center(10)
         )
+    print(''.center(40, '='))
+    print()
 
 
 def main(argv):
@@ -175,5 +177,4 @@ def main(argv):
 
 
 if __name__ == "__main__":
-    print(torch.cuda.is_available())
     main(sys.argv[1:])
