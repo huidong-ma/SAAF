@@ -10,7 +10,7 @@ python eval.py --checkpoint <ckpt_path> --data <data_dir1> <data_dir2> --cuda --
 ```
 For example: 
 ```
-python eval.py --checkpoint mse_0.05.pth.tar --data Kodak CLIC Tecnick --cuda --gpu 0
+python eval.py --checkpoint mse_0.05.pth.tar --data ./Kodak ./CLIC ./Tecnick --cuda --gpu 0
 ```
 
 # Results
