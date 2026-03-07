@@ -1,5 +1,5 @@
 <div align="center">
-<h1>[CVPR '26] Learned Image Compression via Sparse Attention and Adaptive Frequency</h1>
+<h1>[CVPR'26] Learned Image Compression via Sparse Attention and Adaptive Frequency</h1>
 <h3>Huidong Ma, Xinyan Shi, Hui Sun, Xiaofei Yue, Xiaoguang Liu, Gang Wang, Wentong Cai</h3>
 </div>
 
