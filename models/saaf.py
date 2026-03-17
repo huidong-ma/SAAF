@@ -141,7 +141,7 @@ class DenoisingAsRegularizer(nn.Module):
         loss = F.mse_loss(pred_noise, noise)
         return loss
 
-class SLIC(CompressionModel):
+class SAAF(CompressionModel):
     def __init__(self, head_dim=[8, 16, 32, 32, 16, 8], drop_path_rate=0, N=192, M=320, num_slices=5, max_support_slices=5, **kwargs):
         super().__init__() 
         self.head_dim = head_dim
