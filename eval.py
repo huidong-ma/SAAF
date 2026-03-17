@@ -1,7 +1,7 @@
 import torch
 import torch.nn.functional as F
 from torchvision import transforms
-from models.slic import SLIC
+from models.saaf import SAAF
 import warnings
 import os
 import sys
@@ -160,7 +160,7 @@ def main(argv):
     else:
         device = 'cpu'
 
-    net = SLIC()
+    net = SAAF()
     net = net.to(device)
     net.eval()
 
