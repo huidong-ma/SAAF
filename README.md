@@ -3,7 +3,7 @@
 <h3>Huidong Ma, Xinyan Shi, Hui Sun, Xiaofei Yue, Xiaoguang Liu, Gang Wang, Wentong Cai</h3>
 </div>
 
-# Running
+## 💡Running
 ### Evaluate
 ```
 python eval.py --checkpoint <ckpt_path> --data <data_dir1> <data_dir2> --cuda --gpu <gpu_id>
@@ -13,7 +13,7 @@ For example:
 python eval.py --checkpoint mse_0.05.pth.tar --data ./Kodak ./CLIC ./Tecnick --cuda --gpu 0
 ```
 
-# Results
+## 📦Results
 Our models are trained on the [OpenImages](https://github.com/openimages) with MSE as the optimization target. The pre-trained models are available at [Link](https://drive.google.com/drive/folders/1TZlDDxYhMyRKiQeCbDgtr6W-S-lm7tiz?usp=drive_link).  
 The RD results across the [Kodak](https://r0k.us/graphics/kodak/), [CLIC](https://storage.googleapis.com/clic_datasets/clic2020_professional_valid.zip), and [Tecnick](https://master.dl.sourceforge.net/project/testimages/OLD/OLD_SAMPLING/testimages.zip?viasf=1) datasets are as follows:
 ```
@@ -33,16 +33,25 @@ The RD results across the [Kodak](https://r0k.us/graphics/kodak/), [CLIC](https:
 }
 ```
 
-<!--
-# Citation
-If you are interested in our work, we hope you might consider starring our repository and citing our paper:
+## 🔗 Citation
+If you are interested in our work, please cite our paper by:
 ```
+@inproceedings{ma2026learned,
+  title={Learned Image Compression via Sparse Attention and Adaptive Frequency},
+  author={Ma, Huidong and Shi, Xinyan and Sun, Hui and Yue, Xiaofei and Liu, Xiaoguang and Wang, Gang and Cai, Wentong},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={41278--41287},
+  year={2026}
+}
 ```
--->
 
-# Acknowledgment
+---
+
+## 📖 Acknowledgment
 The code is based on [CompressAI](https://github.com/InterDigitalInc/CompressAI), [DCAE](https://github.com/CVL-UESTC/DCAE), and [AuxT](https://github.com/qingshi9974/AuxT). Thanks for these great works.
 
-# Contact
+---
+
+## ✉️ Contact
 Email: mahd@nbjl.nankai.edu.cn  
 Nankai-Baidu Joint Laboratory (NBJL)
